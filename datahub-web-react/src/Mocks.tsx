@@ -127,18 +127,7 @@ const dataset1 = {
             time: 0,
         },
     },
-    institutionalMemory: {
-        elements: [
-            {
-                url: 'https://www.google.com',
-                description: 'This only points to Google',
-                created: {
-                    actor: 'urn:li:corpuser:1',
-                    time: 1612396473001,
-                },
-            },
-        ],
-    },
+    institutionalMemory: null,
     usageStats: null,
 };
 
@@ -267,19 +256,7 @@ export const dataset3 = {
     },
     upstreamLineage: null,
     downstreamLineage: null,
-    institutionalMemory: {
-        elements: [
-            {
-                url: 'https://www.google.com',
-                author: { urn: 'urn:li:corpuser:datahub', username: 'datahub', type: EntityType.CorpUser },
-                description: 'This only points to Google',
-                created: {
-                    actor: 'urn:li:corpuser:1',
-                    time: 1612396473001,
-                },
-            },
-        ],
-    },
+    institutionalMemory: null,
     schema: null,
     editableSchemaMetadata: null,
     deprecation: null,

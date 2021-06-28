@@ -73,6 +73,7 @@ export const dataJobEntity = (): DataJob => {
                 ],
                 __typename: 'DataFlowInfo',
             },
+            editableProperties: null,
             ownership: {
                 owners: [],
                 lastModified: { time: 1620224528712, __typename: 'AuditStamp' },
@@ -97,6 +98,7 @@ export const dataJobEntity = (): DataJob => {
             outputDatasets: [],
             __typename: 'DataJobInputOutput',
         },
+        editableProperties: null,
         info: { name: jobId, description: null, __typename: 'DataJobInfo' },
         globalTags: { tags: [], __typename: 'GlobalTags' },
         __typename: 'DataJob',

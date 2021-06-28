@@ -23,6 +23,7 @@ export const chartEntity = (tool): Chart => {
             created: { time: 1619137330, __typename: 'AuditStamp' },
             __typename: 'ChartInfo',
         },
+        editableProperties: null,
         ownership: {
             owners: [
                 {

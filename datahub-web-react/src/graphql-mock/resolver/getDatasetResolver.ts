@@ -22,6 +22,7 @@ export const getDatasetResolver = {
             data: {
                 dataset: Object.assign(dataset, {
                     schema: null,
+                    editableProperties: null,
                     editableSchemaMetadata: null,
                     deprecation: null,
                     downstreamLineage: {
@@ -33,6 +34,8 @@ export const getDatasetResolver = {
                         __typename: 'UpstreamEntityRelationships',
                     },
                     glossaryTerms: null,
+                    institutionalMemory: null,
+                    usageStats: null,
                 }),
             },
         };

@@ -24,6 +24,7 @@ export const dataFlowEntity = ({ orchestrator, cluster }: DataFlowEntityArg): Da
             project: null,
             __typename: 'DataFlowInfo',
         },
+        editableProperties: null,
         ownership: {
             owners: [
                 {

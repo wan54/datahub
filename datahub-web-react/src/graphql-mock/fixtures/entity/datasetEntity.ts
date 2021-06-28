@@ -51,6 +51,9 @@ export const datasetEntity = ({ platform, origin, path }: DatasetEntityArg): Dat
         platformNativeType: null,
         tags: [],
         properties: null,
+        editableProperties: null,
+        editableSchemaMetadata: null,
+        deprecation: null,
         ownership: {
             owners: [
                 {
@@ -69,6 +72,8 @@ export const datasetEntity = ({ platform, origin, path }: DatasetEntityArg): Dat
             tags: [],
             __typename: 'GlobalTags',
         },
+        institutionalMemory: null,
+        usageStats: null,
         glossaryTerms: null,
         __typename: 'Dataset',
     };

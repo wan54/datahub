@@ -37,6 +37,7 @@ export const dashboardEntity = (tool): Dashboard => {
         type: EntityType.Dashboard,
         tool,
         dashboardId: '3',
+        editableProperties: null,
         info: {
             name,
             description,
