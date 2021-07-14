@@ -256,8 +256,22 @@ export const dataset3 = {
     },
     upstreamLineage: null,
     downstreamLineage: null,
-    institutionalMemory: null,
     schema: null,
+    institutionalMemory: {
+        elements: [
+            {
+                url: 'https://www.google.com',
+                author: { urn: 'urn:li:corpuser:datahub', username: 'datahub', type: EntityType.CorpUser },
+                description: 'This only points to Google',
+                created: {
+                    actor: 'urn:li:corpuser:1',
+                    time: 1612396473001,
+                },
+            },
+        ],
+    },
+    schemaMetadata: null,
+    previousSchemaMetadata: null,
     editableSchemaMetadata: null,
     deprecation: null,
     usageStats: null,
